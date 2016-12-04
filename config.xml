@@ -10,20 +10,18 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-targetSdkVersion" value="24" />
     <preference name="orientation" value="landscape" />
-    
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <icon src="icon.png" />
     <platform name="android">
-        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/mitmap-ldpi-icon.png" />
+        <icon density="mdpi" src="res/mitmap-mdpi-icon.png" />
+        <icon density="hdpi" src="res/mitmap-hdpi-icon.png" />
+        <icon density="xhdpi" src="res/mitmap-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/mitmap-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/mitmap-xxxhdpi-icon.png" />
+        
     </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+   
 </widget>
